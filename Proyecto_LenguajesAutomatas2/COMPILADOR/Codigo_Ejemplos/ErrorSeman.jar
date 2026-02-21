@@ -1,0 +1,17 @@
+package Prueba;
+
+public class ClaseConErrores {
+    public static void main(String[] args) {
+        
+        int a = 10;
+        int b = 5;
+        int resultado =factor + a + b ; // <-- ¡ERROR: 'factor' no existe!
+
+        String nombre = "Juan";
+        String apellido = "Perez"; 
+
+        String nombreCompleto = nombre + apellido;
+        
+        System.out.println(nombre + " " + apellido + ". Resultado: " + resultado);
+    }
+}

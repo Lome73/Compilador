@@ -1,0 +1,28 @@
+package Prueba;
+
+public class ClaseCorrecta {
+    public static void main(String[] args) {
+        
+        // --- 1. Variables para Aritmética ---
+        int val1 = 20;
+        int val2 = 4;
+        
+        // --- 2. Operaciones Simples ---
+        int resta = val1 - val2;         // 20 - 4 = 16
+        int multiplicacion = val1 * val2; // 20 * 4 = 80
+        int division = val1 / val2;       // 20 / 4 = 5
+        //holaaaaa
+        // --- 3. Operación Mixta y Precedencia ---
+        // Se debe resolver: 20 - (4 * 2) = 20 - 8 = 12
+        int operacion_mixta = val1 - val2 * 2; 
+
+        // --- 4. Variables para Concatenación (si quieres re-probar) ---
+        String inicial = "Resultado: ";
+        String final_msg = " OK.";
+        
+        // Concatenación final (El Semántico debería resolverla a "Resultado: 1680512 OK.")
+        String mensaje = inicial + resta + multiplicacion + division + operacion_mixta + final_msg;
+
+        System.out.println(mensaje);
+    }
+}

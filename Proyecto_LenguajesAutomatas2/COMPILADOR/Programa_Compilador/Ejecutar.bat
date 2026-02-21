@@ -1,0 +1,1 @@
+java C:\Users\PC\Documents\PruebaSemantica.jar > C:\Users\lomel\OneDrive\Documentos\salida.txt
